@@ -1,0 +1,21 @@
+{
+    "dir": "ltr",
+    "lang": "pt",
+    "name": "Bom Prato",
+    "scope": "/bomprato/",
+    "display": "browser",
+    "start_url": "https://marianaruther.github.io/bomprato/",
+    "short_name": "Bom Prato",
+    "theme_color": "transparent",
+    "description": "Protótipo Bom Prato",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/bomprato/images/favicon.ico",
+            "sizes": "16x16 32x32"
+        }
+    ]
+}

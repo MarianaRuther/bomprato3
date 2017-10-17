@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "bomprato",
+  "short_name": "bomprato",
+  "theme_color": "#f19419",
+  "background_color": "#f19419",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "images/logo_bom_prato.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+]
+}

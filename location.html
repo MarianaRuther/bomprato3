@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>BomPrato | Próximo de você</title>
+<link rel="icon" type="images" href="images/favicon.ico"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+<script src="js/jquery.min.js"></script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Cookery Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!---->
+<link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<link href="css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	
+<link href="css/animate.min.css" rel="stylesheet"> 
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script> 
+	<script type="text/javascript" src="js/scriptlist.js"></script> 
+
+
+</head>
+<body>
+<div class="header head">
+	<div class="container">
+		<div class="logo">
+			<h1><a href="index.html"><img src="images/logo_bom_prato.png" alt="" width="150"></a></h1>
+		</div>
+		<div class="nav-icon">		
+			<a href="#" class="navicon"></a>
+				<div class="toggle">
+					<ul class="toggle-menu">
+						<li><a  href="index.html">Home</a></li>
+						<li><a  href="menu.html">Cardápio</a></li>
+						<li><a class="active" href="location.html">Próximo de você</a></li>
+                        <li><a  href="single.html">Comentários</a></li>
+						<li><a class="active" href="contact.html">Contato</a></li>
+					</ul>
+				</div>
+			<script>
+			$('.navicon').on('click', function (e) {
+			  e.preventDefault();
+			  $(this).toggleClass('navicon--active');
+			  $('.toggle').toggleClass('toggle--active');
+			});
+			</script>
+		</div>
+	<div class="clearfix"></div>
+	</div>
+		
+		
+</div>
+
+	<div class="contact">
+		<div class="container">
+		<div class="menu-top">
+				<div class="col-md-4 menu-left animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<h3>Próximo de você</h3>
+					<label><i class="glyphicon glyphicon-menu-up"></i></label>
+                    </br></br>
+					<p>Digite a cidade, bairro ou endereço e localize a unidade BOMPRATO mais próxima de você!<p>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1Sphy8IpzHaKAXOHp9G_GNwJWZOw" width="640" height="480"></iframe>
+
+				</div>
+				<div class="col-md-8 menu-right animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+				</div>
+				<div class="clearfix"> </div>
+				<br><br><br><br>
+				<div id="divConteudo">
+		<table  id="tabela">
+			<thead>
+				<tr>
+					<th>Cidade</th>
+					<th>Bairro</th>
+					<th>Endereço</th>
+				</tr>
+				<tr>
+					<th><input type="text" id="txtColuna1"/></th>
+					<th><input type="text" id="txtColuna2"/></th>
+					<th align="left"><input type="text" id="txtColuna3"/></th>
+				</tr>				
+			</thead>
+			<tbody>
+				<tr>
+					<td>São Paulo</td>
+					<td>Centro 25 de Março</td>
+					<td><strong>Unidade 25 de Março</strong> -
+Endereço: Rua 25 de Março, 166</td>
+				</tr>
+				<tr>
+					<td>São Paulo</td>
+					<td>Brás</td>
+					<td><strong>Unidade Brás</strong> - Avenida Rangel Pestana, 2.327</td>
+				</tr>				
+				<tr>
+					<td>São Paulo</td>
+					<td>Nossa Sra. do O</td>
+					<td><strong>Unidade Brasilândia</strong> -
+Endereço: Avenida Parapuã, 1.479</td>
+				</tr>
+				<tr>
+					<td>São Paulo</td>
+					<td>Capão Redondo</td>
+					<td><strong>Unidade Campo Limpo</strong> -
+Endereço: Estrada de Itapecerica, 4.728</td>
+				</tr>
+				<tr>
+					<td>São Paulo</td>
+					<td>Campos Elíseos</td>
+					<td><strong>Unidade Capão Redondo</strong> -
+Endereço: Avenida Atos Tomás Ferraciú, 318</td>
+				</tr>				
+			</tbody>
+		</table>
+	</div>
+				
+				
+			</div>
+</div>
+	</div>
+<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-head">
+				<div class="col-md-8 footer-top animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
+					<ul class=" in">
+							<li><a  href="index.html">Home</a></li>
+						<li><a  href="menu.html">Cardápio</a></li>
+						<li><a class="active" href="location.html">Próximo de você</a></li>
+                        <li><a  href="single.html">Comentários</a></li>
+						<li><a class="active" href="contact.html">Contato</a></li>
+					</ul>					
+						<span>Volte Sempre!</span>
+				</div>
+				<div class="col-md-4 footer-bottom  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+					
+					
+
+				</div>
+			<div class="clearfix"> </div>
+					
+			</div>
+			<p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 
+		</div>
+	</div>		
+	<!--//footer-->
+
+</body>
+</html>
+
